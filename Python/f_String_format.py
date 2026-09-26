@@ -1,0 +1,1 @@
+print(f"first num{8} and second number is {10} : average={(8+10)/2}")

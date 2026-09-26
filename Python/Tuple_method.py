@@ -1,0 +1,5 @@
+Tup=(2,3,3,4,2,422,22)
+method=Tup.index(3)
+print(method)
+method2=Tup.count(2)
+print(method2)
