@@ -176,3 +176,13 @@ for i in word:
     print(i)
     count+=1
 print(count)
+
+              #or
+
+
+string = input("Enter a string: ")
+
+unique = set(string)
+
+print("Unique characters:", unique)
+print("Count of unique characters:", len(unique))
