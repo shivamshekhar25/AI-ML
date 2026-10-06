@@ -5,12 +5,12 @@ class BankAccount:
         self.balance=balance
 
     def deposit(self,amount):
-        self.balance=+amount
+        self.balance+=amount
         print("amount deposit",amount)
 
     def withraw(self,amount):
         if amount<=self.balance:
-            self.balance=-amount
+            self.balance-=amount
             print("withdrwal amount",amount)
         else:
             print("unsufficient balance")
@@ -19,7 +19,7 @@ class BankAccount:
 
 
 
-account1=(204,"shivam",500000)
+account1=BankAccount(204,"shivam",500000)
 
 account1.deposit(5000)
 account1.withraw(50000)
